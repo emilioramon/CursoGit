@@ -5,7 +5,12 @@ nombre_archivo = 'pp.txt'
 
 #Comentario
 #Comentario 2
+<<<<<<< HEAD
 #Rama main
+=======
+#Comentario branch
+
+>>>>>>> Rama1
 
 with open(nombre_archivo,'r') as f:
     conteo_caracteres = collections.Counter(f.read().upper())
